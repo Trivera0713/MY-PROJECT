@@ -1,0 +1,85 @@
+h1,
+h4 {
+  font-weight: lighter;
+  text-align: center;
+  font-family: fantasy;
+  color: rgb(38, 120, 196);
+}
+h1 {
+  padding: 30px;
+}
+h2 {
+  font-style: italic;
+  margin-bottom: 0px;
+}
+h3 {
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+ul {
+  list-style: none;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+a {
+  font-size: 20px;
+}
+
+form {
+  padding: 10px;
+}
+
+.days {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+}
+#current-temp {
+  position: relative;
+  font-weight: bold;
+  font-size: 60px;
+  top: -60px;
+  left: 100px;
+  margin-bottom: 0px;
+}
+.temps {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.temperature:hover {
+  background-color: rgba(45, 120, 170, 0.3);
+}
+.units {
+  position: relative;
+  top: -100px;
+  left: 100px;
+}
+.tempDescription {
+  position: relative;
+  font-size: 30px;
+  margin: 0 auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: -60px;
+}
+
+#icon {
+  max-width: 10%;
+  display: block;
+}
+#sunny,
+#thunder,
+#windy {
+  max-width: 50%;
+  position: relative;
+}
+.location {
+  margin: 0;
+  padding: 10px;
+  vertical-align: middle;
+  border-radius: 15px;
+}
+.container {
+  display: block;
+  max-width: 800px;
+}
